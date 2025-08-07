@@ -14,7 +14,7 @@ const sendEmail = () => {
     }
 
     const subject = encodeURIComponent(
-        emailSubject.value.trim() || "MOTION FOR IMPEACHMENT OF PRESIDENT WILLIAM SAMOEI RUTO AND CALL FOR LOCAL AND INTERNATIONAL PROSECUTION."
+        emailSubject.value.trim() || "RE: PETITION & IMPEACHMENT MOTION OF PRESIDENT WILLIAM SAMOEI RUTO(2025)."
     );
     const emailBody = encodeURIComponent(emailContent.value);
     const recipients = checkedRecipients.join(",");
