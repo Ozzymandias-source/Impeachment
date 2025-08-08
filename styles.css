@@ -46,6 +46,19 @@ h2 {
     font-weight: bold;
 }
 
+.step-number-two {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
 .recipients {
     margin-bottom: 20px;
     display: flex;
@@ -158,16 +171,18 @@ button:active {
 }
 
 .download-btn {
-    padding: 10px 20px;
-    margin: 10px 0;
+    padding: 12px 25px;
+    margin: 0 auto;
     font-size: 16px;
+	font-weight: bold;
     cursor: pointer;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
     display: inline-block;
+	letter-spacing: 0.5px;
 }
        
 .download-btn:hover {
@@ -175,9 +190,9 @@ button:active {
 }
 
 .novel-description {
-    max-width: 600px;
+    max-width: 1200px;
     margin: 20px auto;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
 }
     
